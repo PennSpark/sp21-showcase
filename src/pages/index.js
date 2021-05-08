@@ -35,18 +35,18 @@ export default function Home() {
         <Grid.Column>
           <Project
             img={pogaImg}
-            url="emojifier"
+            url="/"
             title="Poga"
             isCodingProject="True"
             isDesignProject="True"
             description="Interactive website that uses machine learning to detect and classify emotions within an image."
-            people="Grace Jiang, Jerry Qin, Aarushi Singh, Acelyn Choi, Aditya Gupta, Shelly Wu, Subin Kim"
+            people="Jimmy Ren, Isabel An, Janice Kim, Wendy Wu, Charles Cheng, Brandon Adiele, Tinatin Kokoshvili, Andrew Zhang"
           />
         </Grid.Column>
         <Grid.Column>
           <Project
             img={clarifiImg}
-            url="emojifier"
+            url="/"
             title="Clarifi"
             isCodingProject="False"
             isDesignProject="True"
