@@ -5,16 +5,13 @@ import 'semantic-ui-css/semantic.min.css'
 
 import { Grid } from 'semantic-ui-react'
 
-import leftImg from '../../static/img/left.png';
-
 import headerImg from '../../static/img/header.png';
 import emojifierImg from '../../static/img/emojifier.png';
 
 
 export default function Home() {
   return (<Layout>
-      <div style={{width: "100%", padding: "80px", backgroundColor: "#FFF9EF", textAlign: "center"}}> 
-      {/* <img style={{float: "left", margin: "0px", height: "280px"}} src={leftImg} /> */}
+      <div style={{width: "100%", padding: "100px", textAlign: "center", backgroundImage: `url(${headerImg})`, backgroundSize: "cover", backgroundPosition: "center"}}> 
         <h3 style={{fontSize: "1.6rem"}}>Penn Creative Labs</h3>
         <h1 style={{fontSize: "3rem"}}>
             Spring 2021 Showcase
