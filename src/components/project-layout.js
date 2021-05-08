@@ -29,10 +29,10 @@ export default class ProjectLayout extends React.Component {
               width: "100%",
               padding: "100px",
               textAlign: "center",
-              backgroundColor: `${this.props.color}`,
-              //   backgroundImage: `url(${this.props.img})`,
-              //   backgroundSize: "cover",
-              //   backgroundPosition: "center",
+            //   backgroundColor: `${this.props.color}`,
+                backgroundImage: `url(${this.props.img})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
             }}
           >
             <div style={{ maxWidth: "600px", margin: "auto" }}>

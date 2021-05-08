@@ -3,7 +3,7 @@ import ProjectLayout from "../components/project-layout"
 import "semantic-ui-css/semantic.min.css"
 import FadeIn from "react-fade-in"
 
-import emojifierImg from "../../static/img/emojifier.png"
+import emojifierImg from "../../static/img/emojifier-header.png"
 
 export default function Home() {
   return (

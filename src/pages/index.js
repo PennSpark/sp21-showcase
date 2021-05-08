@@ -10,6 +10,12 @@ import headerImg from "../../static/img/header.png"
 import emojifierImg from "../../static/img/emojifier.png"
 import clarifiImg from "../../static/img/clarifi.png"
 import pogaImg from "../../static/img/poga.png"
+import habitatImg from "../../static/img/habitat.png"
+import arthubImg from "../../static/img/arthub.png"
+import mysteryMuseumImg from "../../static/img/mystery-museum.png"
+import mysteryMusicImg from "../../static/img/mystery-music.png"
+import penntitionsImg from "../../static/img/penntitions.png"
+
 
 
 export default function Home() {
@@ -39,7 +45,7 @@ export default function Home() {
             title="Poga"
             isCodingProject="True"
             isDesignProject="True"
-            description="Interactive website that uses machine learning to detect and classify emotions within an image."
+            description="A yoga-practicing app with a plant friend!"
             people="Jimmy Ren, Isabel An, Janice Kim, Wendy Wu, Charles Cheng, Brandon Adiele, Tinatin Kokoshvili, Andrew Zhang"
           />
         </Grid.Column>
@@ -56,12 +62,67 @@ export default function Home() {
         </Grid.Column>
         <Grid.Column>
           <Project
+            img={habitatImg}
+            url="habitat"
+            title="Habitat"
+            isCodingProject="True"
+            isDesignProject="True"
+            description="Habitat is an iOS mobile app and a Penn-themed habit tracker."
+            people="Maggie Yu, Logan Cho, Arushi Srivastava, Leon Hertzberg, Julia Deng, Xinyi Zheng"
+          />
+        </Grid.Column>
+        <Grid.Column>
+          <Project
+            img={mysteryMuseumImg}
+            url="mystery-at-museum"
+            title="Mystery at Museum"
+            isCodingProject="False"
+            isDesignProject="True"
+            description="This digital escape room is a design-only project created using Figma."
+            people="Connie Lin, Elyssa Chou, Kristine Lam, Vivienne Chen"
+          />
+        </Grid.Column>
+        <Grid.Column>
+          <Project
+            img={arthubImg}
+            url="arthub"
+            title="Arthub"
+            isCodingProject="True"
+            isDesignProject="True"
+            description="A streamlined website where artists can upload their portfolios, order/complete commissions, and where recruiters can find and recruit talent."
+            people="Norman Chen, Maggie Yu, Elaine Fan"
+          />
+        </Grid.Column>
+        <Grid.Column>
+          <Project
+            img={mysteryMusicImg}
+            url="mystery-music"
+            title="Mystery Music"
+            isCodingProject="True"
+            isDesignProject="True"
+            description="A four player game that tests how well you know your friends’ music tastes!"
+            people="Linda Lu, David Zhang, Egret Jin, Lindsey Smith, Caroline Chin, Christy Qiu"
+          />
+        </Grid.Column>
+        <Grid.Column>
+          <Project
+            img={penntitionsImg}
+            url="penntitions"
+            title="Penntitions"
+            isCodingProject="True"
+            isDesignProject="True"
+            description="A petition website that allows Penn students to make an impact."
+            people="Janna Goliff, Ahmed Laban, Helena Zhang, Aryan Nagariya, Janice Kim"
+          />
+        </Grid.Column>
+        <Grid.Column>
+          <Project
             img={emojifierImg}
             url="emojifier"
             title="Emojifier"
             isCodingProject="True"
             isDesignProject="False"
-            description="project description 1"
+            description="Interactive website that uses machine learning to detect and classify emotions within an image."
             people="Grace Jiang, Jerry Qin, Aarushi Singh, Acelyn Choi, Aditya Gupta, Shelly Wu, Subin Kim"
           />
         </Grid.Column>
