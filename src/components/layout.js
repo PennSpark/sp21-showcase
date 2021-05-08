@@ -10,7 +10,7 @@ export default function Layout({ children }) {
             <head>
                 <title>PCL Showcase</title>
             </head>
-            <body>
+            <body style={{margin: "0px", padding: "0px"}}>
                 {children}
             <footer style={{height: "50px"}}></footer>
             </body>

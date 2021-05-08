@@ -7,6 +7,6 @@ export default class LabelCoding extends React.Component {
   }
 
   render() {
-    return <Label color="teal">💻 Coding</Label>
+    return <Label color="blush">💻 Coding</Label>
   }
 }
