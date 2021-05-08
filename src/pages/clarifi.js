@@ -1,7 +1,6 @@
 import React from "react"
 import ProjectLayout from "../components/project-layout"
 import "semantic-ui-css/semantic.min.css"
-import FadeIn from "react-fade-in"
 
 import clarifiImg from "../../static/img/clarifi-header.png"
 
