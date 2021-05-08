@@ -2,7 +2,6 @@ import React from "react"
 import { Card, Icon, Image } from "semantic-ui-react"
 import LabelCoding from "./label-coding"
 import LabelDesign from "./label-design"
-
 import FadeIn from "react-fade-in"
 
 import "./styles/project.css"
