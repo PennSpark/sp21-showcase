@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <Grid container columns={3} style={{margin:"auto"}}>
+      <Grid container columns={3} style={{margin:"auto", marginTop: "30px"}}>
         <Grid.Column>
         <Project
             img={emojifierImg}
