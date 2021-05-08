@@ -1,6 +1,8 @@
 import React from "react"
 import { Card, Icon, Image } from "semantic-ui-react"
-import LabelTag from "../components/label"
+import LabelCoding from "./label-coding"
+import LabelDesign from "./label-design"
+
 
 import "./styles/project.css"
 
@@ -10,6 +12,23 @@ export default class Project extends React.Component {
   }
 
   render() {
+    const isCodingProject = this.props.isCodingProject;
+    let codingLabel;
+    if (isCodingProject == "True") {
+      codingLabel = <LabelCoding />
+    } else {
+      codingLabel = <div />
+    }
+
+    const isDesignProject = this.props.isDesignProject;
+    let designLabel;
+    if (isDesignProject == "True") {
+      designLabel = <LabelDesign />
+    } else {
+      designLabel = <div />
+    }
+
+
     return (
       <a href={this.props.url}>
         <Card>
@@ -17,7 +36,7 @@ export default class Project extends React.Component {
           <Card.Content>
             <Card.Header>{this.props.title}</Card.Header>
             <Card.Meta>
-              <LabelTag />
+              {codingLabel}{designLabel}
               {/* <span className="date">Joined in 2015</span> */}
             </Card.Meta>
             <Card.Description>{this.props.description}</Card.Description>

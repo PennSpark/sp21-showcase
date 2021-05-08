@@ -16,15 +16,33 @@ export default function Home() {
             img={emojifierImg}
             url="emojifier"
             title="Emojifier"
+            isCodingProject="True"
+            isDesignProject="False"
             description="project description 1"
             people="Grace Jiang, Jerry Qin, Aarushi Singh, Acelyn Choi, Aditya Gupta, Shelly Wu, Subin Kim"
         />
         </Grid.Column>
         <Grid.Column>
-            <p>hi</p>
+        <Project
+            img={emojifierImg}
+            url="emojifier"
+            title="Emojifier"
+            isCodingProject="True"
+            isDesignProject="False"
+            description="project description 1"
+            people="Grace Jiang, Jerry Qin, Aarushi Singh, Acelyn Choi, Aditya Gupta, Shelly Wu, Subin Kim"
+        />
         </Grid.Column>
         <Grid.Column>
-            <p>hi</p>
+        <Project
+            img={emojifierImg}
+            url="emojifier"
+            title="Emojifier"
+            isCodingProject="True"
+            isDesignProject="False"
+            description="project description 1"
+            people="Grace Jiang, Jerry Qin, Aarushi Singh, Acelyn Choi, Aditya Gupta, Shelly Wu, Subin Kim"
+        />
         </Grid.Column>
     </Grid>
       
