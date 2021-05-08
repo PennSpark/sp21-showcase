@@ -15,6 +15,34 @@ export default function Home() {
       isCodingProject="True"
       people="Grace Jiang, Jerry Qin, Aarushi Singh, Acelyn Choi, Aditya Gupta, Shelly Wu, Subin Kim"
       background="Our project is a website that uses machine learning to classify the facial expressions in a photo into one of 4 emotions: happy, sad, neutral, or angry. We used Flask to create the web application portion and Tensorflow for the machine learning portion."
+      timeline={[
+        "Our project had three major milestones, detailed below:",
+        <br />,
+        <br />,
+        <strong>Milestone 1</strong>,
+        <ul>
+          <li>Finalize designs and prototypes for website.</li>
+          <li>Develop basic frontend of website.</li>
+          <li>
+            Learn the basics of what machine learning is, as long as the major
+            steps that go into image classification.
+          </li>
+          <li>Find emotion identifying datasets to train model on.</li>
+        </ul>,
+        <strong>Milestone 2</strong>,
+        <ul>
+          <li>Feature to upload and display images on the website.</li>
+          <li>
+            Ability to pre-process images to identify face, crop image, and
+            resize to correct dimensions.
+          </li>
+          <li>
+            Train machine learning model that reliably classifies the right
+            emotions based off an image.
+          </li>
+        </ul>,
+        <strong>Final Milestone:</strong>,<br/>, <ul><li>Integrate classification model onto the website.</li><li>Final polishes, including final design touches and improving classification accuracy.</li></ul>
+      ]}
       challenges={[
         "Our team faced several challenges during the machine learning portion of our project. Firstly, it was a challenge to bring up the accuracy of our machine learning classification accuracy rate, since our dataset’s resolution was too small (48x48). Secondly, overfitting was also an issue since our dataset was too small. We were able to partially solve this by randomly rotating and flipping images before training them, but it still affected the final accuracy.",
         <br />,
