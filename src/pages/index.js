@@ -41,7 +41,7 @@ export default function Home() {
         <Grid.Column>
           <Project
             img={pogaImg}
-            url="/"
+            url="poga"
             title="Poga"
             isCodingProject="True"
             isDesignProject="True"
@@ -52,7 +52,7 @@ export default function Home() {
         <Grid.Column>
           <Project
             img={clarifiImg}
-            url="/"
+            url="clarifi"
             title="Clarifi"
             isCodingProject="False"
             isDesignProject="True"
