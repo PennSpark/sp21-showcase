@@ -4,8 +4,6 @@ import LabelCoding from "./label-coding"
 import LabelDesign from "./label-design"
 import FadeIn from "react-fade-in"
 
-import "./styles/project.css"
-
 export default class Project extends React.Component {
   constructor(props) {
     super(props)
